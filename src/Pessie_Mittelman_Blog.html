@@ -1,38 +1,65 @@
-<!--Pessie_Mittelman_Blog -->
+<!--Pessie_Mittelman_Blog.html
+* html for blog page
+* Pessie Mittelman
+* 2/6/25 -->
+
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>Pessie Mittelman's Blog</title>
     <link rel="icon" type="image/svg+xml" href="shield.svg">
+    <link rel="stylesheet" href="blog_styles.css">
 </head>
 
 <body>
-
     <div class="header">
-        <h1>Pessie Mittelman's Blog</h1>
-        <h1><a href="about_us.html" target="_blank">About Us</a></h2>
-        <br>
+        <ul>
+            <li>
+                <h1>Pessie Mittelman's Blog</h1>
+            </li>
+            <li>
+                <h1><a href="about_us.html" target="_blank">About Us</a></h2>
+            </li>
+            <br>
+        </ul>
     </div>
 
     <div class="heading">
-        <h2>Evolution of Ransomware and How to Protect Yourself</h1>
         <br>
+        <br>
+        <br>
+        <section id="section1">
+        <h2>Evolution of Ransomware and How to Protect Yourself</h1>
+    </div>
+
+    <div class="sidebar">
+        <h2>Overview</h2>
+        <ul>
+            <li><a href="#section1">What Is Ransomware?</a></li>
+            <li><a href="#section2">A Brief History</a></li>
+            <li><a href="#section3">How Does Ransomware Spread?</a></li>
+            <li><a href="#section4">How to Protect Yourself</a></li>
+            <li><a href="#section5">What If You’re Attacked?</a></li>
+            <li><a href="#section6">Learn More</a></li>
+        </ul>
     </div>
 
     <div class="figure">
-        <img src="Image2.jpg" alt="computer screen with a large padlock wrapped in chains" width="588px" height="309px">
+        <section id="section2">
+        <img src="Image2.jpg" alt="computer screen with a large padlock wrapped in chains" width="500px" height="300px">
     </div>
 
     <div class="section">
-        <p><strong>What Is Ransomware?</strong></p>
+        <h3><strong>What Is Ransomware?</strong></h3>
         <p>
             Imagine logging into your computer one day only to find that all your files—pictures, homework, and even
             your favorite games—are locked. A scary message pops up saying you have to pay money to get them back. This
             is ransomware, a type of malware (malicious software) used by cybercriminals to extort money from victims.
         </p>
         <br>
-        <p><strong>A Brief History of Ransomware</strong></p>
+        <section id="section3">
+        <h3><strong>A Brief History of Ransomware</strong></h3>
         <p>
             Ransomware has come a long way since it first appeared. In 1989, the first ransomware, called the AIDS
             Trojan, was distributed through floppy disks. The ransom? A payment sent by mail!
@@ -45,10 +72,11 @@
             leak sensitive data online if the ransom isn’t paid. This double-threat tactic makes it even more dangerous.
         </p>
         <br>
-        <p><strong>How Does Ransomware Spread?</strong></p>
+        <section id="section4">
+        <h3><strong>How Does Ransomware Spread?</strong></h3>
         <p>
             <div class="figure">
-                <img src="Image1.png" alt="thief stepping out of a smartphone symbolizing cyber theft." width="550x" height="400px">
+                <img src="Image1.png" alt="thief stepping out of a smartphone symbolizing cyber theft." width="550px" height="400px">
             </div>        
             Ransomware can sneak into your system in many ways:
         </p>
@@ -69,7 +97,8 @@
             </li>
         </ul>
         <br>
-        <p><strong>How to Protect Yourself</strong></p>
+        <section id="section5">
+        <h3><strong>How to Protect Yourself</strong></h3>
         <p>Here are some easy ways to keep ransomware out of your life:</p>
         <ol>
             <li>
@@ -94,7 +123,8 @@
             </li>
         </ol>
         <br>
-        <p><strong>What If You’re Attacked?</strong></p>
+        <section id="section6">
+        <h3><strong>What If You’re Attacked?</strong></h3>
         <p>
             If you ever become a victim of ransomware:
         </p>
@@ -113,7 +143,8 @@
             </li>
         </ol>
         <br>
-        <p><strong>Learn More</strong></p>
+        <h3><strong>Learn More</strong></h3>
+
         <p>
             Want to dive deeper into cybersecurity? Check out these helpful resources:
         </p>
@@ -134,9 +165,13 @@
     <hr>
     <div class="aside">
         <form>
+            <br>
             <h4>Stay Updated</h4>
             <p>
-                Want to know when a new blog is posted? Sign up below to receive updates directly to your email:
+                Want to know when a new blog is posted?
+            </p>
+            <p>
+                Sign up below to receive updates directly to your email:
             </p>
             <p>Enter Name:</p>
             <input type="text" name="Name">
@@ -144,14 +179,17 @@
             <input type="text" name="Email">
             <br>
             <br>
-            <input type="submit">
+            <input type="submit" value="Submit" class="btn">
+            <br>
+            <br>
         </form>
     </div>
 
     <div class="footer">
+        <hr>
         <p>&#169; Pessie Mittelman | <a href="mailto:pessie.mittelman@gmail.com"
                 target="_blank">pessie.mittelman@gmail.com</a></p>
-        <hr>
+        <br>
     </div>
 
 </body>
