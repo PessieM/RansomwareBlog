@@ -1,0 +1,108 @@
+/*blog_styles.css
+* css for html blog page
+* Pessie Mittelman
+* 2/10/25 */
+
+:root {
+    --lightblue: rgb(138, 206, 241);
+    --orange: #f1592a;
+}
+.header ul {
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    li {
+        margin-right: 40px;
+    }
+}
+.header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    color: white
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+.heading {
+    text-shadow: 2px 2px 5px gray;
+    text-align: center;
+}
+.figure img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 0 20px 10px rgba(120, 120, 120, 0.75);
+    border-radius: 2px;
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: lightcyan
+}
+a:hover {
+    color: var(--orange);
+}
+.sidebar {
+    display: grid;
+    position: fixed;
+    grid-template-rows: auto;
+    left: 0;
+    top: 0;
+    width: 220px;
+    background-color: gray;
+    color: var(--lightblue);
+    text-align: center;
+    border: 2px solid black; /* Better separation */
+    border-left: none;
+    padding: 5px;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 5px;
+}
+.sidebar li{
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+    background: rgba (0, 0, 0, 0.2)
+}
+.sidebar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+.sidebar li a:hover{
+    color: var(--orange)
+}
+.section h3 {
+    size: 40px;
+    text-shadow: 1px 1px 3px gray;
+    text-align: center;
+}
+.section {
+    margin: 250px;
+}
+.section p {
+    text-align: justify;
+}
+.aside {
+    text-align: center;
+    background-color: rgba(138,206,241,200)
+}
+.btn:hover{
+    background-color: var(--orange);
+    color: white;
+}
+.footer {
+    text-align: center;
+    background-color: lightgray;
+}
