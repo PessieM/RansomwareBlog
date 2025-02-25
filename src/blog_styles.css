@@ -57,7 +57,7 @@ a:hover {
     background-color: gray;
     color: var(--lightblue);
     text-align: center;
-    border: 2px solid black; /* Better separation */
+    border: 2px solid black;
     border-left: none;
     padding: 5px;
 }
@@ -105,4 +105,13 @@ a:hover {
 .footer {
     text-align: center;
     background-color: lightgray;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 5%;
+    }
+    .sidebar {
+        width: 25%;
+    }
 }
